@@ -1,4 +1,4 @@
-import { DatabaseSync } from "node:sqlite";
+import type { DatabaseSync } from "node:sqlite";
 
 /**
  * A migration is a function that takes a `DatabaseSync instance and performs a database schema change.
