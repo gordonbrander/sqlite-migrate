@@ -4,12 +4,13 @@ A minimal SQLite migration library for Deno and Node.js.
 
 - **Minimal**: Simple API (one function)
 - **Zero dependencies**: Uses SQLite bundled with Deno/Node.js
-- **No bells, no whistles**. Migrations are plain functions. No rollback, only forward migration.
+- **No bells, no whistles**. Migrations are plain functions. No rollback, only
+  forward migration.
 
 ## Installation
 
 ```typescript
-import { migrate, getVersion, setVersion } from "jsr:@gordonb/sqlite-migrate";
+import { getVersion, migrate, setVersion } from "jsr:@gordonb/sqlite-migrate";
 ```
 
 Or via Deno add:
